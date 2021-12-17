@@ -1,7 +1,7 @@
 import sys
 import os
 
-project = 'Augmax'
+project = 'Loox'
 copyright = '2021, Konrad Heidler. Jax, NumPy and SciPy documentation are copyright to the respective authors'
 author = 'Konrad Heidler'
 
@@ -54,18 +54,18 @@ html_theme_options = {
 }
 
 latex_documents = [
-    (main_doc, 'Augmax.tex', 'Augmax Documentation',
+    (main_doc, 'Loox.tex', 'Loox Documentation',
      author, 'manual'),
 ]
 
 texinfo_documents = [
-    (main_doc, 'Augmax', 'Augmax Documentation',
-     author, 'Augmax', 'Efficiently composable data augmentation on the GPU.',
+    (main_doc, 'Loox', 'Loox Documentation',
+     author, 'Loox', 'Efficiently composable data augmentation on the GPU.',
      'Miscellaneous'),
 ]
 
 man_pages = [
-    (main_doc, 'augmax', 'Augmax Documentation',
+    (main_doc, 'loox', 'Loox Documentation',
      [author], 1)
 ]
 

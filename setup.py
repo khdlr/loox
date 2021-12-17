@@ -14,7 +14,7 @@
 from setuptools import setup, find_packages
 
 _version_dict = dict()
-with open('augmax/version.py') as f:
+with open('loox/version.py') as f:
     exec(f.read(), _version_dict)
 __version__ = _version_dict['__version__']
 
@@ -22,7 +22,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='augmax',
+    name='loox',
     version=__version__,
     description='Efficiently Composable Data Augmentation on the GPU with Jax',
     author='Konrad Heidler',
@@ -34,7 +34,7 @@ setup(
     ],
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/khdlr/augmax',
+    url='https://github.com/khdlr/loox',
     license='',
     classifiers=[
         'Programming Language :: Python :: 3.6',
